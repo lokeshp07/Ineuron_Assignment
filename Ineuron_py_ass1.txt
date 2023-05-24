@@ -1,0 +1,51 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+Ans:
+*                           : expression
+'hello'                   : values
+-87.8                     : values
+-                             : expression
+/                             : expression
++	                 : expression
+6                            : values
+------------------------------------------------------------------------------------------
+2. What is the difference between string and variable?
+Ans: String is the type of Data type of the variable and it contains a series of characters. Variable or identifiers are the name given to reference an object. Variable stores values of all types.
+------------------------------------------------------------------------------------------
+3. Describe three different data types.
+Ans: The different type of data types are:
+1)Numeric data type: Numeric data types consists of numeric values like integer, Decimal, Float and complex.
+2)String data type: String data types consists series of character. And are immutable for strings.
+3)Sequence type: It contains a List, Tuples and range. 
+------------------------------------------------------------------------------------------
+4. What is an expression made up of? What do all expressions do?
+Ans: Expressions are made up of operands and operators. Expressions perform the operation based on defined values and operators in the expressions. Expressions produce some values output after being interpreted by the Python interpreter.
+------------------------------------------------------------------------------------------
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans: Expression produces the result when evaluated. Whereas the statement controls the flow of the program. And executes the program accordingly.
+------------------------------------------------------------------------------------------
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Ans: The variable bacon contains 22.
+-----------------------------------------------------------------------------------------
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans: 1) 'spam' + 'spamspam' = spamspamspam
+        2) 'spam' * 3 = spamspamspam
+----------------------------------------------------------------------------------------
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans: As per naming guidelines of variables. Variables can not start with a numeric type or special character. In the given above case. Eggs is the valid variable as it has alphabet character. Whereas 100 can’t be the variable as it is starting with a numeric value and doesn’t not follow to the rules of naming variables.
+------------------------------------------------------------------------------------------
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans: The Three Functions are:
+1)	values= int(10) – convert the string 10 to integer values.
+2)	values= float(6.642) – converts the string value to float values.
+3)	Values= str(42) – converts the integer value to string value.
+------------------------------------------------------------------------------------------
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Ans:  The above statement can cause an error. As the + operator in the expressions can be used only when both operands are strings. 
+Fixed one: ‘I have eaten’ + str(99) + ‘burritos’
+-----------------------------------------------------------------------------------------
